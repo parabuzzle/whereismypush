@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Whereismypush</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+  <script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "2affbd5d-d5e4-43c3-b8df-2cb5bea60352", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+</head>
+<body>
+
+<div id="main">
+	<%= yield %>
+</div>
+
+
+<div id="footer">
+	brought to you by: <a href="http://mikeheymans.com">mike heymans</a>
+</div>
+</body>
+</html>
