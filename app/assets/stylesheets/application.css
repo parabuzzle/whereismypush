@@ -31,3 +31,9 @@ body {
 .mid {
 	font-size:48px;
 }
+
+.small {
+	margin:auto;
+	width:400px;
+	font-size:18px;
+}
